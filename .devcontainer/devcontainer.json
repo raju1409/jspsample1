@@ -1,0 +1,9 @@
+{
+    "name": "Java with Tomcat",
+    "build": {
+      "dockerfile": "Dockerfile"
+    },
+    "forwardPorts": [8080],
+    "postCreateCommand": "rm -rf /var/lib/tomcat9/webapps/ROOT"
+  }
+  
